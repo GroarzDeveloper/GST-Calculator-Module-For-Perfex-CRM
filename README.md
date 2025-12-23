@@ -2,7 +2,7 @@
 
 A free, lightweight GST Calculator module for Perfex CRM.
 Access the calculator instantly from the top navbar icon or the sidebar menu, without leaving your workflow.
-<img src="https://drive.groarz.com/d/Rn2mFh47OPGrjxza4GdPk0cewcjCIi/MjE3fHBhZGRpbg.png">
+<img src="https://drive.groarz.com/drive/s/8CFnxvK1fs4uxKtn8hwDZtBemnFOrZ">
 Built for the community ❤️
 
 ✨ Features

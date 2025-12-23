@@ -92,17 +92,17 @@ No permissions required
 
 📂 Module Structure
 gst_calculator/<br>
-├── gst_calculator.php
-├── controllers/
-│   └── Gst_calculator.php
-├── views/
-│   ├── modal.php
-│   └── sidebar.php
-├── assets/
-│   ├── css/
-│   │   └── gst.css
-│   └── js/
-│       └── gst.js
+├── gst_calculator.php<br>
+├── controllers/<br>
+│   └── Gst_calculator.php<br>
+├── views/<br>
+│   ├── modal.php<br>
+│   └── sidebar.php<br>
+├── assets/<br>
+│   ├── css/<br>
+│   │   └── gst.css<br>
+│   └── js/<br>
+│       └── gst.js<br>
 
 🔐 Permissions
 

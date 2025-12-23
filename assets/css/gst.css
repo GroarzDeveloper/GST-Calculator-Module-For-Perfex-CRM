@@ -1,0 +1,126 @@
+:root {
+  --black: #0b0b0b;
+  --white: #ffffff;
+  --accent: #ff6200;
+  --gray: #6b6b6b;
+  --border: #e6e6e6;
+}
+
+.calculator {
+  width: min(900px, 92%);
+  background: var(--white);
+  color: var(--black);
+  padding: 36px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.title span {
+  color: var(--accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray);
+  display: block;
+  margin-bottom: 4px;
+}
+
+input,
+select {
+  width: 100%;
+  height: 48px;
+  margin-top: 8px;
+  padding: 0 14px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--white);
+  color: var(--black);
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+input::placeholder {
+  color: #a0a0a0;
+}
+
+input:focus,
+select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(255, 98, 0, 0.2);
+}
+
+.results {
+  margin-top: 32px;
+  padding-top: 26px;
+  border-top: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.result-box {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px;
+  text-align: center;
+}
+
+.result-box .value {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.result-box .value::before {
+  content: "₹";
+  margin-right: 2px;
+  opacity: 0.6;
+}
+
+.result-box .label {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--gray);
+}
+
+.result-box.totals {
+  border-color: var(--accent);
+  background: rgba(255, 98, 0, 0.05);
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.result-box.totals .value {
+  color: var(--accent);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid,
+  .results {
+    grid-template-columns: 1fr;
+  }
+
+  .calculator {
+    width: 100%;
+    padding: 20px;
+  }
+}

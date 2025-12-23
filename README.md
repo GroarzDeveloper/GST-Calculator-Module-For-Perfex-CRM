@@ -91,7 +91,7 @@ No cron jobs
 No permissions required
 
 📂 Module Structure
-gst_calculator/
+gst_calculator/<br>
 ├── gst_calculator.php
 ├── controllers/
 │   └── Gst_calculator.php

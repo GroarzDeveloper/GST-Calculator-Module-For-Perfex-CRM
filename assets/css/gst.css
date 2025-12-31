@@ -41,8 +41,8 @@
   margin-bottom: 4px;
 }
 
-input,
-select {
+.calculator input,
+.calculator select {
   width: 100%;
   height: 48px;
   margin-top: 8px;
